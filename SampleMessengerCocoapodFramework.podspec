@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'http://www.example.com'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'rzolin' => 'rzolin@gmail.com' }
-    s.source           = { :git => 'https://github.com/rzolin/SampleMessengerCocoapodFramework-.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/rzolin/SampleMessengerCocoapodFramework.git', :tag => s.version.to_s }
 
     # Platform setup
     s.requires_arc = true
