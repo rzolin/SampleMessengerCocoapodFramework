@@ -1,0 +1,6 @@
+framework module Pods_SampleMessengerCocoapodFramework_Tests {
+  umbrella header "Pods-SampleMessengerCocoapodFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
