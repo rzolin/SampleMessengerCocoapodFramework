@@ -25,13 +25,13 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'DataManagement' do |ds|
-    ds.source_files = 'Code/DataManagement.h', 'Code/DataManagement/**/*'
-    #  ds.resources = [ 'Code/DataManagement/Model/Model.xcdatamodeld', 'Code/DataManagement/Model/Model.xcdatamodeld/*.xcdatamodel' ]
-    #  ds.preserve_paths = 'Code/DataManagement/Model/Model.xcdatamodeld'
+    ds.source_files = 'SampleMessengerCocoapodFramework/Code/DataManagement.h', 'SampleMessengerCocoapodFramework/Code/DataManagement/**/*'
+      ds.resources = [ 'SampleMessengerCocoapodFramework/Code/DataManagement/Model/Model.xcdatamodeld', 'SampleMessengerCocoapodFramework/Code/DataManagement/Model/Model.xcdatamodeld/*.xcdatamodel' ]
+      ds.preserve_paths = 'SampleMessengerCocoapodFramework/Code/DataManagement/Model/Model.xcdatamodeld'
     end
 
     s.subspec 'Networking' do |ns|
-    ns.source_files = 'Code/Networking.h', 'Code/Networking/**/*.{h,m,swift}'
+    ns.source_files = 'SampleMessengerCocoapodFramework/Code/Networking.h', 'SampleMessengerCocoapodFramework/Code/Networking/**/*.{h,m,swift}'
     end
 
     # s.resource_bundles = {
